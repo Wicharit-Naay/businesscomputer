@@ -1,0 +1,100 @@
+% Setting up the document class and necessary packages
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[thai]{babel}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{xcolor}
+% Configuring fonts
+\usepackage{noto}
+
+% Customizing section titles
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% Beginning the document
+\begin{document}
+
+% Creating the title page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\Huge\bfseries หลักสูตรวิชาคอมพิวเตอร์ธุรกิจ พ.ศ. 2568\\}
+    \vspace{1cm}
+    {\Large บริหารธุรกิจบัณฑิต (คอมพิวเตอร์ธุรกิจดิจิทัล)\\}
+    \vspace{0.5cm}
+    {\large มหาวิทยาลัยตัวอย่าง\\}
+    \vspace{2cm}
+    {\large ปีการศึกษา 2568 (ค.ศ. 2025)\\}
+    \vfill
+\end{titlepage}
+
+% Adding table of contents
+\tableofcontents
+\newpage
+
+% Introducing the curriculum overview
+\section{ภาพรวมหลักสูตร}
+หลักสูตรบริหารธุรกิจบัณฑิต สาขาวิชาคอมพิวเตอร์ธุรกิจดิจิทัล พ.ศ. 2568 ออกแบบเพื่อผลิตบัณฑิตที่มีความรู้และทักษะในการประยุกต์ใช้เทคโนโลยีดิจิทัลกับการบริหารธุรกิจ โดยเน้นการพัฒนาระบบสารสนเทศ การวิเคราะห์ข้อมูล และการจัดการธุรกิจในยุคดิจิทัลที่ขับเคลื่อนด้วยปัญญาประดิษฐ์และบล็อกเชน
+
+% Listing objectives
+\subsection{วัตถุประสงค์}
+\begin{enumerate}
+    \item พัฒนาทักษะการเขียนโปรแกรมและการออกแบบระบบสำหรับงานธุรกิจ
+    \item สร้างความเข้าใจในเทคโนโลยีสมัยใหม่ เช่น AI, IoT และ Blockchain
+    \item เสริมสร้างความสามารถในการวิเคราะห์ข้อมูลเพื่อการตัดสินใจทางธุรกิจ
+    \item ปลูกฝังจรรยาบรรณและความรับผิดชอบในงานเทคโนโลยี
+\end{enumerate}
+
+% Detailing course structure
+\section{โครงสร้างหลักสูตร}
+หลักสูตรประกอบด้วย 130 หน่วยกิต แบ่งเป็น:
+\begin{itemize}
+    \item หมวดวิชาศึกษาทั่วไป: 30 หน่วยกิต
+    \item หมวดวิชาเฉพาะบังคับ: 72 หน่วยกิต
+    \item หมวดวิชาเลือก: 15 หน่วยกิต
+\end{itemize}
+
+% Listing core courses
+\subsection{รายวิชาหลัก}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{p{4cm}p{8cm}c}
+        \toprule
+        \textbf{รหัสวิชา} & \textbf{ชื่อวิชา} & \textbf{หน่วยกิต} \\
+        \midrule
+        BC2578-101 & การเขียนโปรแกรมเชิงวัตถุขั้นสูง & 3 \\
+        BC2578-102 & ระบบฐานข้อมูลอัจฉริยะ & 3 \\
+        BC2578-103 & การจัดการพาณิชย์อิเล็กทรอนิกส์ยุค Web 5.0 & 3 \\
+        BC2578-104 & ปัญญาประดิษฐ์เพื่อการวิเคราะห์ธุรกิจ & 3 \\
+        BC2578-105 & การออกแบบและพัฒนาแอปพลิเคชันควอนตัม & 3 \\
+        BC2578-106 & ความมั่นคงปลอดภัยไซเบอร์สำหรับธุรกิจ & 3 \\
+        BC2578-107 & โครงงานคอมพิวเตอร์ธุรกิจดิจิทัล & 6 \\
+        \bottomrule
+    \end{tabular}
+    \caption{ตัวอย่างรายวิชาหลัก}
+\end{table}
+
+% Describing elective courses
+\subsection{รายวิชาเลือก}
+\begin{itemize}
+    \item การพัฒนาแอปพลิเคชัน AR/VR สำหรับการตลาด
+    \item เทคโนโลยีบล็อกเชนในซัพพลายเชน
+    \item การจัดการข้อมูลขนาดใหญ่ (Big Data Management)
+\end{itemize}
+
+% Outlining expected outcomes
+\section{ผลลัพธ์ที่คาดหวัง}
+บัณฑิตจะสามารถ:
+\begin{itemize}
+    \item ออกแบบและพัฒนาระบบสารสนเทศที่ตอบสนองความต้องการขององค์กร
+    \item ใช้เครื่องมือ AI และการวิเคราะห์ข้อมูลในการตัดสินใจเชิงกลยุทธ์
+    \item จัดการโครงการเทคโนโลยีด้วยความเป็นมืออาชีพ
+\end{itemize}
+
+% Ending the document
+\end{document}

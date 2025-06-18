@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.profile-section {
+    margin-bottom: 40px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00ff88;
+    margin-bottom: 20px;
+}
+
+/* Styles for the main heading (h1) */
+h1 {
+    font-size: 2.5rem; /* Sets the font size of the heading */
+    margin: 0; /* Removes default margin */
+    color: #00ff88; /* Sets the text color to a bright green */
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5); /* Adds a glowing text shadow effect */
+}
+
+.bio {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+    margin-top: 10px;
+}
+
+.slide-section {
+    margin-bottom: 40px;
+}
+
+.slide-section h2 {
+    font-size: 1.8rem;
+    color: #00ff88;
+    margin-bottom: 20px;
+}
+
+.inquiry-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.button i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.line {
+    background: #00ff88;
+}
+
+.facebook {
+    background: #1877f2;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+}
+
+.email {
+    background: #ff4444;
+}
+
+.curriculum {
+    background: #6a1b9a;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .bio {
+        font-size: 1rem;
+    }
+
+    .slide-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+}
